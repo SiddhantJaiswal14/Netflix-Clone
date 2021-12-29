@@ -1,4 +1,4 @@
 # Netflix-Clone
 
-Frontend Landing page of Netflix cloned by HTML and CSS.
+Frontend Landing page of Netflix cloned by HTML, CSS and JS.
 https://netflix-cyan.vercel.app/
