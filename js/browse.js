@@ -1,7 +1,9 @@
-$(document).ready(function () {
-  $(".slide-images").slick({
+jQuery(document).ready(function () {
+  // Slider
+  jQuery(".browser-slider").slick({
     slidesToShow: 5,
     arrows: false,
+    // centerMode: true,
     responsive: [
       {
         breakpoint: 460,
@@ -12,20 +14,27 @@ $(document).ready(function () {
       },
     ],
   });
+
+  // Custom Tabber
+  jQuery("#series").click(function () {
+    console.log('series');
+    // jQuery(this).addClass("series-showcase");
+    // jQuery("#films").removeClass("films-showcase");
+    jQuery('.showcase').addClass('series-banner');
+    jQuery(".series-showcase").show();
+    jQuery(".films-showcase").hide();
+    jQuery(".series-section").show();
+    jQuery(".films-section").hide();
+  });
+
+    jQuery("#films").click(function () {
+    // jQuery(this).addClass("films-showcase");
+    // jQuery("#series").removeClass("series-showcase");
+    jQuery('.showcase').removeClass('series-banner');
+    jQuery(".series-showcase").hide();
+    jQuery(".films-showcase").show();
+    jQuery(".series-section").hide();
+    jQuery(".films-section").show();
+  });
+
 });
-
-// $(document).ready(function () {
-//   $("#series").click(function () {
-//     // $(this).addClass("series-showcase");
-//     // $("#films").removeClass("films-showcase");
-//     $(".series-showcase").CSS("display", "block");
-//     $(".films-showcase").CSS("display", "none");
-//   });
-
-//   $("#films").click(function () {
-//     // $(this).addClass("films-showcase");
-//     // $("#series").removeClass("series-showcase");
-//     $(".series-showcase").CSS("display", "none");
-//     $(".films-showcase").CSS("display", "block");
-//   });
-// });

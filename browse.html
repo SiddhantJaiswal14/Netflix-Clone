@@ -1,336 +1,390 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-    />
-    <link rel="stylesheet" href="css/browse.css" />
-    <link rel="icon" href="./img/4846304.png" type="image/x-icon" />
-    <title>Netflix India - Browse</title>
-  </head>
-  <body>
-    <header class="showcase">
-      <div class="showcase-top">
-        <a href="index.html"><img src="img/logo.png" alt="Netflix" /></a>
-        <ul class="head-links">
-          <li id="series"><a href="">Series</a></li>
-          <li id="films"><a href="">Films</a></li>
-        </ul>
-      </div>
-      <div class="container">
-        <div class="showcase-content films-showcase">
-          <h1>SPIDER MAN - Far From Home</h1>
-          <p>
-            Even your friendly neighborhood superhero can use a vacation. But a
-            new threat forces Peter Parker to swing into action during a school
-            trip to Europe.
-          </p>
-          <button class="btn">Play</button>
-        </div>
-        <div class="showcase-content series-showcase" style="display: none">
-          <h1>MONEY HEIST</h1>
-          <p>
-            Eight thieves take hostages and lock themselves in the Royal Mint of
-            Spain as a criminal mastermind manipulates the police to carry out
-            his plan.
-          </p>
-          <button class="btn">Play</button>
-        </div>
-      </div>
-    </header>
-    <div class="films-section">
-      <div class="slide-section">
-        <h2>Children</h2>
-        <div class="slide-images">
-          <!-- <button class="display-left">
-            <i class="fas fa-chevron-left"></i>
-          </button> -->
-
-          <img
-            src="./img/films/children/despicable_me.jpg"
-            alt="Despicable me"
-          />
-
-          <img src="./img/films/children/frozen.jpg" alt="Frozen" />
-
-          <img
-            src="./img/films/children/spirited_away.jpg"
-            alt="Spirited Away"
-          />
-
-          <img src="./img/films/children/transylvania.jpg" alt="Transylvania" />
-
-          <img src="./img/films/children/up.jpg" alt="Up" />
-          <!-- <button class="display-right">
-            <i class="fas fa-chevron-right"></i>
-          </button> -->
-        </div>
-      </div>
-      <div class="slide-section">
-        <h2>Drama</h2>
-        <div class="slide-images">
-          <!-- <button class="display-left">
-            <i class="fas fa-chevron-left"></i>
-          </button> -->
-          <img src="./img/films/drama/fight_club.jpg" alt="Fight Club" />
-          <img src="./img/films/drama/kings_speech.jpg" alt="Kings_Speech" />
-          <img src="./img/films/drama/revenant.jpg" alt="Revenant" />
-          <img
-            src="./img/films/drama/social_network.jpg"
-            alt="Social Network"
-          />
-          <img src="./img/films/drama/prestige.jpg" alt="Prestige" />
-          <!-- <button class="display-right">
-            <i class="fas fa-chevron-right"></i>
-          </button> -->
-        </div>
-      </div>
-      <div class="slide-section">
-        <h2>Romance</h2>
-        <div class="slide-images">
-          <!-- <button class="display-left">
-            <i class="fas fa-chevron-left"></i>
-          </button> -->
-          <img
-            src="./img/films/romance/blue_valentine.jpg"
-            alt="Blue Valentine"
-          />
-          <img src="./img/films/romance/la_la_land.jpg" alt="La La land" />
-          <img src="./img/films/romance/notebook.jpg" alt="Notebook" />
-          <img src="./img/films/romance/star_isborn.jpg" alt="Star is born" />
-          <img src="./img/films/romance/titanic.jpg" alt="Titanic" />
-          <!-- <button class="display-right">
-            <i class="fas fa-chevron-right"></i>
-          </button> -->
-        </div>
-      </div>
-      <div class="slide-section">
-        <h2>Suspense</h2>
-        <div class="slide-images">
-          <!-- <button class="display-left">
-            <i class="fas fa-chevron-left"></i>
-          </button> -->
-          <img src="./img/films/suspense/gone-girl.jpg" alt="Gone Girl" />
-          <img src="./img/films/suspense/prisoners.jpg" alt="Prisoners" />
-          <img src="./img/films/suspense/seven.jpg" alt="Seven" />
-          <img
-            src="./img/films/suspense/shutter-island.jpg"
-            alt="Shutter Island"
-          />
-          <img src="./img/films/suspense/zodiac.jpg" alt="Zodiac" />
-          <!-- <button class="display-right">
-            <i class="fas fa-chevron-right"></i>
-          </button> -->
-        </div>
-      </div>
-      <div class="slide-section">
-        <h2>Thriller</h2>
-        <div class="slide-images">
-          <!-- <button class="display-left">
-            <i class="fas fa-chevron-left"></i>
-          </button> -->
-          <img src="./img/films/thriller/black_swan.jpg" alt="Black Swan" />
-          <img src="./img/films/thriller/joker.jpg" alt="Joker" />
-          <img
-            src="./img/films/thriller/night_crawler.jpg"
-            alt="Night crawler"
-          />
-          <img src="./img/films/thriller/quiet_place.jpg" alt="Quiet Place" />
-          <img
-            src="./img/films/thriller/silence_of_lambs.jpg"
-            alt="Silenec of Lambs"
-          />
-          <!-- <button class="display-right">
-            <i class="fas fa-chevron-right"></i>
-          </button> -->
-        </div>
-      </div>
-    </div>
-    <div class="series-section" style="display: none">
-      <div class="slide-section">
-        <h2>Children</h2>
-        <div class="slide-images">
-          <!-- <button class="display-left">
-            <i class="fas fa-chevron-left"></i>
-          </button> -->
-          <img src="./img/series/children/arthur.jpg" alt="Arthur" />
-          <img
-            src="./img/series/children/dora_the_explorer.jpg"
-            alt="Dora the Explorer"
-          />
-          <img src="./img/series/children/paw-petrol.jpg" alt="Paw Petrol" />
-          <img src="./img/series/children/peppa.jpg" alt="Peppa" />
-          <img src="./img/series/children/spongebob.jpg" alt="Spongebob" />
-          <!-- <button class="display-right">
-            <i class="fas fa-chevron-right"></i>
-          </button> -->
-        </div>
-      </div>
-      <div class="slide-section">
-        <h2>Comedies</h2>
-        <div class="slide-images">
-          <!-- <button class="display-left">
-            <i class="fas fa-chevron-left"></i>
-          </button> -->
-          <img
-            src="./img/series/comedies/arrested_development.jpg"
-            alt="Arrested development"
-          />
-          <img
-            src="./img/series/comedies/curb_your_enthusiasm.jpg"
-            alt="Curb your enthusiasm"
-          />
-          <img src="./img/series/comedies/family-guy.jpg" alt="Family-Guy" />
-          <img src="./img/series/comedies/south_park.jpg" alt="South Park" />
-          <img src="./img/series/comedies/the_office.jpg" alt="The Office" />
-          <!-- <button class="display-right">
-            <i class="fas fa-chevron-right"></i>
-          </button> -->
-        </div>
-      </div>
-      <div class="slide-section">
-        <h2>Crime</h2>
-        <div class="slide-images">
-          <!-- <button class="display-left">
-            <i class="fas fa-chevron-left"></i>
-          </button> -->
-          <img src="./img/series/crime/long_shot.jpg" alt="Long Shot" />
-          <img
-            src="./img/series/crime/making_a_murderer.jpg"
-            alt="Making a Murderer"
-          />
-          <img
-            src="./img/series/crime/the_confession_killer.jpg"
-            alt="The Confession Killer"
-          />
-          <img
-            src="./img/series/crime/the_innocent_man.jpg"
-            alt="The innocent man"
-          />
-          <img src="./img/series/crime/the_staircase.jpg" alt="The Staircase" />
-          <!-- <button class="display-right">
-            <i class="fas fa-chevron-right"></i>
-          </button> -->
-        </div>
-      </div>
-      <div class="slide-section">
-        <h2>Documentaries</h2>
-        <div class="slide-images">
-          <!-- <button class="display-left">
-            <i class="fas fa-chevron-left"></i>
-          </button> -->
-          <img
-            src="./img/series/documentaries/amanda-knox.jpg"
-            alt="Amanda-Knox"
-          />
-          <img
-            src="./img/series/documentaries/citizen-four.jpg"
-            alt="Citizen Four"
-          />
-          <img
-            src="./img/series/documentaries/man_on_wire.jpg"
-            alt="Man on Wire"
-          />
-          <img
-            src="./img/series/documentaries/super-size-me.jpg"
-            alt="Super-size me"
-          />
-          <img
-            src="./img/series/documentaries/tiger-king.jpg"
-            alt="Tiger King"
-          />
-          <!-- <button class="display-right">
-            <i class="fas fa-chevron-right"></i>
-          </button> -->
-        </div>
-      </div>
-      <div class="slide-section">
-        <h2>Feel Good</h2>
-        <div class="slide-images">
-          <!-- <button class="display-left">
-            <i class="fas fa-chevron-left"></i>
-          </button> -->
-          <img src="./img/series/feel good/forest-gump.jpg" alt="Forest Gump" />
-          <img
-            src="./img/series/feel good/good-will-hunting.jpg"
-            alt="Good Will Hunting"
-          />
-          <img src="./img/series/feel good/juno.jpg" alt="Juno" />
-          <img
-            src="./img/series/feel good/midnight-in-paris.jpg"
-            alt="Midnight in Paris"
-          />
-          <img
-            src="./img/series/feel good/school_of_rock.jpg"
-            alt="School of rock"
-          />
-          <!-- <button class="display-right">
-            <i class="fas fa-chevron-right"></i>
-          </button> -->
-        </div>
-      </div>
-    </div>
-    <footer>
-      <div class="foot-container">
-        <p class="call">Questions? Call <a href="#">000-800-040-1843</a></p>
-        <div class="links">
-          <div class="link-listing">
-            <ul class="ul-1">
-              <li><a href="#">FAQ</a></li>
-              <li><a href="#">Investor Relations</a></li>
-              <li><a href="#">Privacy</a></li>
-              <li><a href="#">Speed Test</a></li>
-            </ul>
-          </div>
-
-          <div class="link-listing">
-            <ul class="ul-2">
-              <li><a href="#">Help Centre</a></li>
-              <li><a href="#">Jobs</a></li>
-              <li><a href="#">Cookie Preferences</a></li>
-              <li><a href="#">Legal Notices</a></li>
-            </ul>
-          </div>
-
-          <div class="link-listing">
-            <ul class="ul-3">
-              <li><a href="#">Account</a></li>
-              <li><a href="#">Ways to Watch</a></li>
-              <li><a href="#">Corporate Information</a></li>
-              <li><a href="#">Only on Netflix</a></li>
-            </ul>
-          </div>
-
-          <div class="link-listing">
-            <ul class="ul-4">
-              <li><a href="#">Media Centre</a></li>
-              <li><a href="#">Terms of Use</a></li>
-              <li><a href="#">Contact Us</a></li>
-            </ul>
-          </div>
-        </div>
-        <button class="btn btn-rounded f-b lang">
-          <i class="fas fa-globe"></i> English
-          <i class="fas fa-caret-down btn-icon"></i>
-        </button>
-        <p class="country">Netflix India</p>
-      </div>
-    </footer>
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="js/slick.min.js"></script> -->
-    <script
-      type="text/javascript"
-      src="//code.jquery.com/jquery-1.11.0.min.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
-    ></script>
-    <script type="text/javascript" src="js/slick.min.js"></script>
-    <script src="js/browse.js"></script>
-  </body>
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="icon" href="./img/4846304.png" type="image/x-icon" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+	<link rel="stylesheet" href="css/slick.css"/>
+	<link rel="stylesheet" href="css/browse.css" />
+	<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="js/slick.min.js"></script>
+	<script src="js/browse.js"></script>
+	<title>Netflix India - Browse</title>
+</head>
+<body>
+	<header class="showcase">
+		<div class="showcase-top">
+			<a href="index.html"><img src="img/logo.png" alt="Netflix" /></a>
+			<ul class="head-links">
+				<li id="series"><a href="javascript:void(0)">Series</a></li>
+				<li id="films"><a href="javascript:void(0)">Films</a></li>
+			</ul>
+		</div>
+		<div class="container">
+			<div class="showcase-content films-showcase">
+				<h1>SPIDER MAN - Far From Home</h1>
+				<p>
+					Even your friendly neighborhood superhero can use a vacation. But a
+					new threat forces Peter Parker to swing into action during a school
+					trip to Europe.
+				</p>
+				<button class="btn">Play</button>
+			</div>
+			<div class="showcase-content series-showcase" style="display: none">
+				<h1>MONEY HEIST</h1>
+				<p>
+					Eight thieves take hostages and lock themselves in the Royal Mint of
+					Spain as a criminal mastermind manipulates the police to carry out
+					his plan.
+				</p>
+				<button class="btn">Play</button>
+			</div>
+		</div>
+	</header>
+	<div class="films-section">
+		<div class="slide-section">
+			<h2>Children</h2>
+			<div class="slide-images">
+				<!-- <button class="display-left">
+					<i class="fas fa-chevron-left"></i>
+				</button> -->
+				<div class="browser-slider">
+					<div class="img-data">
+						<img src="./img/films/children/despicable_me.jpg" alt="Despicable me"/>
+					</div>
+					<div class="img-data">
+						<img src="./img/films/children/frozen.jpg" alt="Frozen" />
+					</div>
+					<div class="img-data">
+						<img src="./img/films/children/spirited_away.jpg" alt="Spirited Away"/>
+					</div>
+					<div class="img-data">
+						<img src="./img/films/children/transylvania.jpg" alt="Transylvania" />
+					</div>
+					<div class="img-data">
+						<img src="./img/films/children/up.jpg" alt="Up" />
+					</div>
+					<div class="img-data">
+						<img src="./img/films/children/despicable_me.jpg" alt="Despicable me"/>
+					</div>
+					<div class="img-data">
+						<img src="./img/films/children/frozen.jpg" alt="Frozen" />
+					</div>
+					<div class="img-data">
+						<img src="./img/films/children/spirited_away.jpg" alt="Spirited Away"/>
+					</div>
+					<div class="img-data">
+						<img src="./img/films/children/transylvania.jpg" alt="Transylvania" />
+					</div>
+					<div class="img-data">
+						<img src="./img/films/children/up.jpg" alt="Up" />
+					</div>
+					<!-- <button class="display-right">
+						<i class="fas fa-chevron-right"></i>
+					</button> -->
+				</div>
+			</div>
+		</div>
+		<div class="slide-section">
+			<h2>Drama</h2>
+			<div class="slide-images">
+				<!-- <button class="display-left">
+					<i class="fas fa-chevron-left"></i>
+				</button> -->
+				<div class="browser-slider">
+					<div class="img-data">
+						<img src="./img/films/drama/fight_club.jpg" alt="Fight Club" />
+					</div>
+					<div class="img-data">
+						<img src="./img/films/drama/kings_speech.jpg" alt="Kings_Speech" />
+					</div>
+					<div class="img-data">
+						<img src="./img/films/drama/revenant.jpg" alt="Revenant" />
+					</div>
+					<div class="img-data">
+						<img src="./img/films/drama/social_network.jpg" alt="Social Network" />
+					</div>
+					<div class="img-data">
+						<img src="./img/films/drama/prestige.jpg" alt="Prestige" />
+					</div>
+					<div class="img-data">
+						<img src="./img/films/drama/fight_club.jpg" alt="Fight Club" />
+					</div>
+					<div class="img-data">
+						<img src="./img/films/drama/kings_speech.jpg" alt="Kings_Speech" />
+					</div>
+					<div class="img-data">
+						<img src="./img/films/drama/revenant.jpg" alt="Revenant" />
+					</div>
+					<div class="img-data">
+						<img src="./img/films/drama/social_network.jpg" alt="Social Network" />
+					</div>
+					<div class="img-data">
+						<img src="./img/films/drama/prestige.jpg" alt="Prestige" />
+					</div>
+				</div>
+				<!-- <button class="display-right">
+					<i class="fas fa-chevron-right"></i>
+				</button> -->
+			</div>
+		</div>
+		<div class="slide-section">
+			<h2>Romance</h2>
+			<div class="slide-images">
+				<!-- <button class="display-left">
+					<i class="fas fa-chevron-left"></i>
+				</button> -->
+				
+				<div class="browser-slider">
+					<div class="img-data">
+						<img src="./img/films/romance/blue_valentine.jpg" alt="Blue Valentine"/>
+					</div>
+					<div class="img-data">
+						<img src="./img/films/romance/la_la_land.jpg" alt="La La land" />
+					</div>
+					<div class="img-data">
+						<img src="./img/films/romance/notebook.jpg" alt="Notebook" />
+					</div>
+					<div class="img-data">
+						<img src="./img/films/romance/star_isborn.jpg" alt="Star is born" />
+					</div>
+					<div class="img-data">
+						<img src="./img/films/romance/titanic.jpg" alt="Titanic" />
+					</div>
+					<div class="img-data">
+						<img src="./img/films/romance/blue_valentine.jpg" alt="Blue Valentine"/>
+					</div>
+					<div class="img-data">
+						<img src="./img/films/romance/la_la_land.jpg" alt="La La land" />
+					</div>
+					<div class="img-data">
+						<img src="./img/films/romance/notebook.jpg" alt="Notebook" />
+					</div>
+					<div class="img-data">
+						<img src="./img/films/romance/star_isborn.jpg" alt="Star is born" />
+					</div>
+					<div class="img-data">
+						<img src="./img/films/romance/titanic.jpg" alt="Titanic" />
+					</div>
+				</div>
+				<!-- <button class="display-right">
+					<i class="fas fa-chevron-right"></i>
+				</button> -->
+			</div>
+		</div>
+		<div class="slide-section">
+			<h2>Suspense</h2>
+			<div class="slide-images">
+				<!-- <button class="display-left">
+					<i class="fas fa-chevron-left"></i>
+				</button> -->
+				<img src="./img/films/suspense/gone-girl.jpg" alt="Gone Girl" />
+				<img src="./img/films/suspense/prisoners.jpg" alt="Prisoners" />
+				<img src="./img/films/suspense/seven.jpg" alt="Seven" />
+				<img
+				src="./img/films/suspense/shutter-island.jpg"
+				alt="Shutter Island"
+				/>
+				<img src="./img/films/suspense/zodiac.jpg" alt="Zodiac" />
+				<!-- <button class="display-right">
+					<i class="fas fa-chevron-right"></i>
+				</button> -->
+			</div>
+		</div>
+		<div class="slide-section">
+			<h2>Thriller</h2>
+			<div class="slide-images">
+				<!-- <button class="display-left">
+					<i class="fas fa-chevron-left"></i>
+				</button> -->
+				<img src="./img/films/thriller/black_swan.jpg" alt="Black Swan" />
+				<img src="./img/films/thriller/joker.jpg" alt="Joker" />
+				<img
+				src="./img/films/thriller/night_crawler.jpg"
+				alt="Night crawler"
+				/>
+				<img src="./img/films/thriller/quiet_place.jpg" alt="Quiet Place" />
+				<img
+				src="./img/films/thriller/silence_of_lambs.jpg"
+				alt="Silenec of Lambs"
+				/>
+				<!-- <button class="display-right">
+					<i class="fas fa-chevron-right"></i>
+				</button> -->
+			</div>
+		</div>
+	</div>
+	<div class="series-section" style="display: none">
+		<div class="slide-section">
+			<h2>Children</h2>
+			<div class="slide-images">
+				<!-- <button class="display-left">
+					<i class="fas fa-chevron-left"></i>
+				</button> -->
+				<img src="./img/series/children/arthur.jpg" alt="Arthur" />
+				<img
+				src="./img/series/children/dora_the_explorer.jpg"
+				alt="Dora the Explorer"
+				/>
+				<img src="./img/series/children/paw-petrol.jpg" alt="Paw Petrol" />
+				<img src="./img/series/children/peppa.jpg" alt="Peppa" />
+				<img src="./img/series/children/spongebob.jpg" alt="Spongebob" />
+				<!-- <button class="display-right">
+					<i class="fas fa-chevron-right"></i>
+				</button> -->
+			</div>
+		</div>
+		<div class="slide-section">
+			<h2>Comedies</h2>
+			<div class="slide-images">
+				<!-- <button class="display-left">
+					<i class="fas fa-chevron-left"></i>
+				</button> -->
+				<img
+				src="./img/series/comedies/arrested_development.jpg"
+				alt="Arrested development"
+				/>
+				<img
+				src="./img/series/comedies/curb_your_enthusiasm.jpg"
+				alt="Curb your enthusiasm"
+				/>
+				<img src="./img/series/comedies/family-guy.jpg" alt="Family-Guy" />
+				<img src="./img/series/comedies/south_park.jpg" alt="South Park" />
+				<img src="./img/series/comedies/the_office.jpg" alt="The Office" />
+				<!-- <button class="display-right">
+					<i class="fas fa-chevron-right"></i>
+				</button> -->
+			</div>
+		</div>
+		<div class="slide-section">
+			<h2>Crime</h2>
+			<div class="slide-images">
+				<!-- <button class="display-left">
+					<i class="fas fa-chevron-left"></i>
+				</button> -->
+				<img src="./img/series/crime/long_shot.jpg" alt="Long Shot" />
+				<img
+				src="./img/series/crime/making_a_murderer.jpg"
+				alt="Making a Murderer"
+				/>
+				<img
+				src="./img/series/crime/the_confession_killer.jpg"
+				alt="The Confession Killer"
+				/>
+				<img
+				src="./img/series/crime/the_innocent_man.jpg"
+				alt="The innocent man"
+				/>
+				<img src="./img/series/crime/the_staircase.jpg" alt="The Staircase" />
+				<!-- <button class="display-right">
+					<i class="fas fa-chevron-right"></i>
+				</button> -->
+			</div>
+		</div>
+		<div class="slide-section">
+			<h2>Documentaries</h2>
+			<div class="slide-images">
+				<!-- <button class="display-left">
+					<i class="fas fa-chevron-left"></i>
+				</button> -->
+				<img
+				src="./img/series/documentaries/amanda-knox.jpg"
+				alt="Amanda-Knox"
+				/>
+				<img
+				src="./img/series/documentaries/citizen-four.jpg"
+				alt="Citizen Four"
+				/>
+				<img
+				src="./img/series/documentaries/man_on_wire.jpg"
+				alt="Man on Wire"
+				/>
+				<img
+				src="./img/series/documentaries/super-size-me.jpg"
+				alt="Super-size me"
+				/>
+				<img
+				src="./img/series/documentaries/tiger-king.jpg"
+				alt="Tiger King"
+				/>
+				<!-- <button class="display-right">
+					<i class="fas fa-chevron-right"></i>
+				</button> -->
+			</div>
+		</div>
+		<div class="slide-section">
+			<h2>Feel Good</h2>
+			<div class="slide-images">
+				<!-- <button class="display-left">
+					<i class="fas fa-chevron-left"></i>
+				</button> -->
+				<img src="./img/series/feel good/forest-gump.jpg" alt="Forest Gump" />
+				<img
+				src="./img/series/feel good/good-will-hunting.jpg"
+				alt="Good Will Hunting"
+				/>
+				<img src="./img/series/feel good/juno.jpg" alt="Juno" />
+				<img
+				src="./img/series/feel good/midnight-in-paris.jpg"
+				alt="Midnight in Paris"
+				/>
+				<img
+				src="./img/series/feel good/school_of_rock.jpg"
+				alt="School of rock"
+				/>
+				<!-- <button class="display-right">
+					<i class="fas fa-chevron-right"></i>
+				</button> -->
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="foot-container">
+			<p class="call">Questions? Call <a href="#">000-800-040-1843</a></p>
+			<div class="links">
+				<div class="link-listing">
+					<ul class="ul-1">
+						<li><a href="#">FAQ</a></li>
+						<li><a href="#">Investor Relations</a></li>
+						<li><a href="#">Privacy</a></li>
+						<li><a href="#">Speed Test</a></li>
+					</ul>
+				</div>
+				
+				<div class="link-listing">
+					<ul class="ul-2">
+						<li><a href="#">Help Centre</a></li>
+						<li><a href="#">Jobs</a></li>
+						<li><a href="#">Cookie Preferences</a></li>
+						<li><a href="#">Legal Notices</a></li>
+					</ul>
+				</div>
+				
+				<div class="link-listing">
+					<ul class="ul-3">
+						<li><a href="#">Account</a></li>
+						<li><a href="#">Ways to Watch</a></li>
+						<li><a href="#">Corporate Information</a></li>
+						<li><a href="#">Only on Netflix</a></li>
+					</ul>
+				</div>
+				
+				<div class="link-listing">
+					<ul class="ul-4">
+						<li><a href="#">Media Centre</a></li>
+						<li><a href="#">Terms of Use</a></li>
+						<li><a href="#">Contact Us</a></li>
+					</ul>
+				</div>
+			</div>
+			<button class="btn btn-rounded f-b lang">
+				<i class="fas fa-globe"></i> English
+				<i class="fas fa-caret-down btn-icon"></i>
+			</button>
+			<p class="country">Netflix India</p>
+		</div>
+	</footer>
+</body>
 </html>

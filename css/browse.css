@@ -45,6 +45,10 @@ ul {
   background: url("../img/spiderman_full.jpg") no-repeat center center/cover;
 }
 
+.showcase.series-banner{
+  background: url("../img/money_heist_full.jpg") no-repeat center center/cover;
+}
+
 .showcase-top {
   display: flex;
   height: 90px;
@@ -64,9 +68,9 @@ ul {
   font-size: large;
 }
 
-img {
-  width: 100%;
-}
+/* img {
+  max-width: 100%;
+} */
 
 .showcase-top img {
   width: 170px;
@@ -95,13 +99,46 @@ img {
   margin-top: 20px;
 }
 
-.slide-section img {
+/* .slide-section img {
   width: 19%;
   margin-right: 10px;
+} */
+
+/* .slide-images {
+  display: flex;
+} */
+
+.browser-slider .slick-track{
+  margin: 0 -7.5px;
 }
 
-.slide-images {
-  display: flex;
+.browser-slider .img-data{
+  padding: 0 7.5px;
+}
+
+.browser-slider .slick-arrow{
+  font-size: 0;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: 9;
+}
+
+.browser-slider .slick-arrow::before{
+  content: '←';
+  display: block;
+  color: #ffffff;
+  font-size: 19px;
+}
+
+.browser-slider .slick-arrow.slick-next{
+  left: auto;
+  right: 0;
+}
+
+.browser-slider .slick-arrow.slick-next::before{
+  transform: rotate(180deg);
 }
 
 .showcase-content {
@@ -195,6 +232,11 @@ footer a:hover {
   background-color: transparent;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 @media (max-width: 459px) {
   .showcase {
     width: 100%;
@@ -230,10 +272,6 @@ footer a:hover {
   .head-links li {
     margin-left: 15px;
     font-size: 15px;
-  }
-
-  img {
-    width: 100%;
   }
 
   .showcase-top img {
